@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: rgb(94, 188, 228)
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 1cm;
+    color: hotpink;
+    margin: 15px 0;
+}
+.btn-group {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: white;
+    font-size: 1cm;
+    background-color: hotpink;
+    border: transparent;
+    border-radius: 30px;
+}
+button:nth-child(1){
+    margin-left: -200px;
+    background-color: hotpink;
+
+}
+button:nth-child(2) {
+     margin-right:-200px;
+     background-color: rgb(76, 17, 195);
+
+}
+img {
+    display: block;
+    margin: auto;
+}
