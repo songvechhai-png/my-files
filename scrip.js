@@ -4,7 +4,7 @@ const yesBtn = document.querySelector(".yes-btn")
 const noBtn = document.querySelector(".no-btn")
 
 yesBtn.addEventListener("click", ()=> {
-    question.innerHTML = "yes do it";
+    question.innerHTML = "yes you do it";
     gif.src="https://i.pinimg.com/originals/e3/b9/8a/e3b98a6c46e5e264dc38b93d198f4e5f.gif"
     
     // បាត់ប៊ូតុង
